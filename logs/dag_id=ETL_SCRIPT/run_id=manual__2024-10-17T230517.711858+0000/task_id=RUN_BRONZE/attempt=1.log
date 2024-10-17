@@ -14,3 +14,65 @@
 [2024-10-17T23:05:18.861+0000] {taskinstance.py:731} INFO - ::endgroup::
 [2024-10-17T23:05:18.876+0000] {base.py:84} INFO - Retrieving connection 'databricks_default'
 [2024-10-17T23:05:18.877+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:05:19.687+0000] {databricks.py:66} INFO - Run submitted with run_id: 461496456365071
+[2024-10-17T23:05:19.687+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:05:19.782+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:05:19.884+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:05:19.884+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:05:19.884+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:05:49.884+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:05:49.989+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:05:49.989+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:05:49.989+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:06:19.988+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:06:20.086+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:06:20.087+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:06:20.087+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:06:50.087+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:06:50.187+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:06:50.187+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:06:50.187+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:07:20.186+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:07:20.281+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:07:20.281+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:07:20.282+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:07:50.281+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:07:50.378+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:07:50.379+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:07:50.379+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:08:20.379+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:08:20.464+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:08:20.464+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:08:20.465+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:08:50.464+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:08:50.598+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:08:50.598+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:08:50.599+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:09:20.598+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:09:20.699+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:09:20.700+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:09:20.700+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:09:50.700+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:09:50.832+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:09:50.833+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:09:50.833+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:10:20.833+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:10:20.960+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:10:20.960+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:10:20.961+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:10:50.960+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:10:51.051+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'RUNNING', 'result_state': '', 'state_message': 'In run'}
+[2024-10-17T23:10:51.051+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:10:51.051+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:11:21.051+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:11:21.135+0000] {databricks.py:128} INFO - RUN_BRONZE in run state: {'life_cycle_state': 'RUNNING', 'result_state': '', 'state_message': 'In run'}
+[2024-10-17T23:11:21.135+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:11:21.136+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:11:51.135+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:11:51.243+0000] {databricks.py:77} INFO - RUN_BRONZE completed successfully.
+[2024-10-17T23:11:51.243+0000] {databricks.py:78} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/270089937190653/run/461496456365071
+[2024-10-17T23:11:51.251+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-17T23:11:51.251+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_SCRIPT, task_id=RUN_BRONZE, run_id=manual__2024-10-17T23:05:17.711858+00:00, execution_date=20241017T230517, start_date=20241017T230518, end_date=20241017T231151
+[2024-10-17T23:11:51.280+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-17T23:11:51.299+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-17T23:11:51.300+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

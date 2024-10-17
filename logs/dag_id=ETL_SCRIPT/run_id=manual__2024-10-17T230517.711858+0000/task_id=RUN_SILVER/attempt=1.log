@@ -1,0 +1,34 @@
+[2024-10-17T23:11:52.438+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-17T23:11:52.449+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_SCRIPT.RUN_SILVER manual__2024-10-17T23:05:17.711858+00:00 [queued]>
+[2024-10-17T23:11:52.455+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_SCRIPT.RUN_SILVER manual__2024-10-17T23:05:17.711858+00:00 [queued]>
+[2024-10-17T23:11:52.455+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-17T23:11:52.465+0000] {taskinstance.py:2888} INFO - Executing <Task(DatabricksSubmitRunOperator): RUN_SILVER> on 2024-10-17 23:05:17.711858+00:00
+[2024-10-17T23:11:52.470+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=189) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-17T23:11:52.471+0000] {standard_task_runner.py:72} INFO - Started process 190 to run task
+[2024-10-17T23:11:52.471+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_SCRIPT', 'RUN_SILVER', 'manual__2024-10-17T23:05:17.711858+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/dag_file.py', '--cfg-path', '/tmp/tmpr_r1wr9u']
+[2024-10-17T23:11:52.471+0000] {standard_task_runner.py:105} INFO - Job 15: Subtask RUN_SILVER
+[2024-10-17T23:11:52.499+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_SCRIPT.RUN_SILVER manual__2024-10-17T23:05:17.711858+00:00 [running]> on host f285080d593b
+[2024-10-17T23:11:52.551+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='guilhermeavila.orlando@gmail.com' AIRFLOW_CTX_DAG_OWNER='Guilherme Orlando' AIRFLOW_CTX_DAG_ID='ETL_SCRIPT' AIRFLOW_CTX_TASK_ID='RUN_SILVER' AIRFLOW_CTX_EXECUTION_DATE='2024-10-17T23:05:17.711858+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-17T23:05:17.711858+00:00'
+[2024-10-17T23:11:52.551+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-17T23:11:52.566+0000] {base.py:84} INFO - Retrieving connection 'databricks_default'
+[2024-10-17T23:11:52.568+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:11:53.192+0000] {databricks.py:66} INFO - Run submitted with run_id: 935693899352513
+[2024-10-17T23:11:53.193+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:11:53.277+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:11:53.389+0000] {databricks.py:128} INFO - RUN_SILVER in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:11:53.389+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/1105948563469723/run/935693899352513
+[2024-10-17T23:11:53.389+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:12:23.389+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:12:23.501+0000] {databricks.py:128} INFO - RUN_SILVER in run state: {'life_cycle_state': 'RUNNING', 'result_state': '', 'state_message': 'In run'}
+[2024-10-17T23:12:23.501+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/1105948563469723/run/935693899352513
+[2024-10-17T23:12:23.502+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:12:53.501+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:12:53.674+0000] {databricks.py:77} INFO - RUN_SILVER completed successfully.
+[2024-10-17T23:12:53.674+0000] {databricks.py:78} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/1105948563469723/run/935693899352513
+[2024-10-17T23:12:53.681+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-17T23:12:53.681+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_SCRIPT, task_id=RUN_SILVER, run_id=manual__2024-10-17T23:05:17.711858+00:00, execution_date=20241017T230517, start_date=20241017T231152, end_date=20241017T231253
+[2024-10-17T23:12:53.705+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-17T23:12:53.722+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-17T23:12:53.723+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

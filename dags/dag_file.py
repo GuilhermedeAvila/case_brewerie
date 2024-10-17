@@ -113,4 +113,4 @@ with DAG('ETL_SCRIPT',
 
     bronze >> silver >> gold
     gold >> success_notif  
-    [bronze, silver, gold] >> fail_notif  
+    [bronze, silver, gold] >> fail_notif 

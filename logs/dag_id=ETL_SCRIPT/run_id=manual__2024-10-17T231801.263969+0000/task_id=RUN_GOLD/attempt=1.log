@@ -1,0 +1,30 @@
+[2024-10-17T23:22:08.252+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-17T23:22:08.264+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_SCRIPT.RUN_GOLD manual__2024-10-17T23:18:01.263969+00:00 [queued]>
+[2024-10-17T23:22:08.270+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_SCRIPT.RUN_GOLD manual__2024-10-17T23:18:01.263969+00:00 [queued]>
+[2024-10-17T23:22:08.270+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-17T23:22:08.280+0000] {taskinstance.py:2888} INFO - Executing <Task(DatabricksSubmitRunOperator): RUN_GOLD> on 2024-10-17 23:18:01.263969+00:00
+[2024-10-17T23:22:08.285+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=345) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-17T23:22:08.286+0000] {standard_task_runner.py:72} INFO - Started process 346 to run task
+[2024-10-17T23:22:08.286+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_SCRIPT', 'RUN_GOLD', 'manual__2024-10-17T23:18:01.263969+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/dag_file.py', '--cfg-path', '/tmp/tmpfn7gwafl']
+[2024-10-17T23:22:08.287+0000] {standard_task_runner.py:105} INFO - Job 20: Subtask RUN_GOLD
+[2024-10-17T23:22:08.315+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_SCRIPT.RUN_GOLD manual__2024-10-17T23:18:01.263969+00:00 [running]> on host f285080d593b
+[2024-10-17T23:22:08.365+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='guilhermeavila.orlando@gmail.com' AIRFLOW_CTX_DAG_OWNER='Guilherme Orlando' AIRFLOW_CTX_DAG_ID='ETL_SCRIPT' AIRFLOW_CTX_TASK_ID='RUN_GOLD' AIRFLOW_CTX_EXECUTION_DATE='2024-10-17T23:18:01.263969+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-17T23:18:01.263969+00:00'
+[2024-10-17T23:22:08.366+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-17T23:22:08.381+0000] {base.py:84} INFO - Retrieving connection 'databricks_default'
+[2024-10-17T23:22:08.383+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:22:08.732+0000] {databricks.py:66} INFO - Run submitted with run_id: 596543760675013
+[2024-10-17T23:22:08.732+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:22:08.825+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:22:08.912+0000] {databricks.py:128} INFO - RUN_GOLD in run state: {'life_cycle_state': 'PENDING', 'result_state': '', 'state_message': ''}
+[2024-10-17T23:22:08.913+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/366383094559718/run/596543760675013
+[2024-10-17T23:22:08.913+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2024-10-17T23:22:38.912+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2024-10-17T23:22:39.088+0000] {databricks.py:77} INFO - RUN_GOLD completed successfully.
+[2024-10-17T23:22:39.089+0000] {databricks.py:78} INFO - View run status, Spark UI, and logs at https://dbc-bc2bfcff-3ceb.cloud.databricks.com/?o=1271398189221813#job/366383094559718/run/596543760675013
+[2024-10-17T23:22:39.096+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-17T23:22:39.097+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ETL_SCRIPT, task_id=RUN_GOLD, run_id=manual__2024-10-17T23:18:01.263969+00:00, execution_date=20241017T231801, start_date=20241017T232208, end_date=20241017T232239
+[2024-10-17T23:22:39.145+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-17T23:22:39.157+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-17T23:22:39.158+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

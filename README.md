@@ -1,4 +1,4 @@
-##Case_brewerie
+## Case_brewerie
 
 Overview
 This project is designed to retrieve data from the Open Brewery DB API, process it using Docker, Apache Airflow and Databricks, and store it in AWS S3 buckets following a structured data pipeline.

@@ -1,0 +1,113 @@
+[2024-10-17T23:03:25.432+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:03:25.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:03:25.434+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.434+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:03:25.464+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:03:25.557+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.556+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:ETL_SCRIPT
+[2024-10-17T23:03:25.564+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.563+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:ETL_SCRIPT
+[2024-10-17T23:03:25.568+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.568+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:ETL_SCRIPT
+[2024-10-17T23:03:25.573+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.573+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:ETL_SCRIPT
+[2024-10-17T23:03:25.578+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.577+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:ETL_SCRIPT
+[2024-10-17T23:03:25.582+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.582+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:ETL_SCRIPT
+[2024-10-17T23:03:25.588+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.587+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:ETL_SCRIPT
+[2024-10-17T23:03:25.588+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:03:25.724+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.724+0000] {dag.py:3262} INFO - Creating ORM DAG for ETL_SCRIPT
+[2024-10-17T23:03:25.734+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:25.734+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-16 06:00:00+00:00, run_after=2024-10-17 06:00:00+00:00
+[2024-10-17T23:03:25.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.317 seconds
+[2024-10-17T23:03:55.901+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:03:55.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:03:55.904+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:55.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:03:55.919+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:03:55.939+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:55.939+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:03:55.959+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:03:55.959+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:03:56.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.145 seconds
+[2024-10-17T23:04:26.179+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:04:26.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:04:26.181+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:04:26.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:04:26.196+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:04:26.215+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:04:26.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:04:26.232+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:04:26.232+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:04:26.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.078 seconds
+[2024-10-17T23:04:56.329+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:04:56.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:04:56.331+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:04:56.331+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:04:56.347+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:04:56.366+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:04:56.366+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:04:56.456+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:04:56.455+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:04:56.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.142 seconds
+[2024-10-17T23:05:26.514+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:05:26.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:05:26.516+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:05:26.516+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:05:26.532+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:05:26.552+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:05:26.552+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:05:26.644+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:05:26.644+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:05:26.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.155 seconds
+[2024-10-17T23:05:56.746+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:05:56.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:05:56.748+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:05:56.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:05:56.764+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:05:56.852+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:05:56.852+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:05:56.869+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:05:56.869+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:05:56.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.138 seconds
+[2024-10-17T23:06:26.938+0000] {processor.py:186} INFO - Started process (PID=99) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:06:26.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:06:26.940+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:06:26.940+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:06:27.060+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:06:27.077+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:06:27.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:06:27.093+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:06:27.093+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:06:27.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.171 seconds
+[2024-10-17T23:06:57.225+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:06:57.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:06:57.227+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:06:57.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:06:57.243+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:06:57.261+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:06:57.260+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:06:57.278+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:06:57.278+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:06:57.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.069 seconds
+[2024-10-17T23:07:27.388+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:07:27.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:07:27.390+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:07:27.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:07:27.405+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:07:27.425+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:07:27.424+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:07:27.444+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:07:27.444+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:07:27.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.072 seconds
+[2024-10-17T23:07:57.558+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:07:57.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:07:57.560+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:07:57.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:07:57.575+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:07:57.593+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:07:57.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:07:57.611+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:07:57.611+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:07:57.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.069 seconds
+[2024-10-17T23:08:27.762+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:08:27.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:08:27.764+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:08:27.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:08:27.781+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:08:27.800+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:08:27.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:08:27.818+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:08:27.818+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:08:27.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.072 seconds
+[2024-10-17T23:08:57.922+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:08:57.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:08:57.924+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:08:57.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:08:57.940+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:08:57.959+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:08:57.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:08:57.976+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:08:57.976+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:08:57.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.071 seconds
+[2024-10-17T23:09:28.100+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:09:28.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:09:28.102+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:09:28.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:09:28.118+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:09:28.137+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:09:28.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:09:28.157+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:09:28.156+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:09:28.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.082 seconds
+[2024-10-17T23:09:58.260+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:09:58.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:09:58.262+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:09:58.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:09:58.277+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:09:58.297+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:09:58.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:09:58.316+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:09:58.316+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:09:58.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.073 seconds
+[2024-10-17T23:10:28.449+0000] {processor.py:186} INFO - Started process (PID=155) to work on /opt/airflow/dags/dag_file.py
+[2024-10-17T23:10:28.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_file.py for tasks to queue
+[2024-10-17T23:10:28.451+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:10:28.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:10:28.467+0000] {processor.py:925} INFO - DAG(s) 'ETL_SCRIPT' retrieved from /opt/airflow/dags/dag_file.py
+[2024-10-17T23:10:28.485+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:10:28.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-17T23:10:28.502+0000] {logging_mixin.py:190} INFO - [2024-10-17T23:10:28.502+0000] {dag.py:4180} INFO - Setting next_dagrun for ETL_SCRIPT to 2024-10-17 06:00:00+00:00, run_after=2024-10-18 06:00:00+00:00
+[2024-10-17T23:10:28.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_file.py took 0.068 seconds

@@ -1,0 +1,16 @@
+[2024-10-17T23:05:18.746+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-17T23:05:18.758+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_SCRIPT.RUN_BRONZE manual__2024-10-17T23:05:17.711858+00:00 [queued]>
+[2024-10-17T23:05:18.763+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_SCRIPT.RUN_BRONZE manual__2024-10-17T23:05:17.711858+00:00 [queued]>
+[2024-10-17T23:05:18.764+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-17T23:05:18.773+0000] {taskinstance.py:2888} INFO - Executing <Task(DatabricksSubmitRunOperator): RUN_BRONZE> on 2024-10-17 23:05:17.711858+00:00
+[2024-10-17T23:05:18.778+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=96) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-10-17T23:05:18.779+0000] {standard_task_runner.py:72} INFO - Started process 97 to run task
+[2024-10-17T23:05:18.779+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'ETL_SCRIPT', 'RUN_BRONZE', 'manual__2024-10-17T23:05:17.711858+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/dag_file.py', '--cfg-path', '/tmp/tmpyra9s875']
+[2024-10-17T23:05:18.780+0000] {standard_task_runner.py:105} INFO - Job 12: Subtask RUN_BRONZE
+[2024-10-17T23:05:18.809+0000] {task_command.py:467} INFO - Running <TaskInstance: ETL_SCRIPT.RUN_BRONZE manual__2024-10-17T23:05:17.711858+00:00 [running]> on host f285080d593b
+[2024-10-17T23:05:18.860+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='guilhermeavila.orlando@gmail.com' AIRFLOW_CTX_DAG_OWNER='Guilherme Orlando' AIRFLOW_CTX_DAG_ID='ETL_SCRIPT' AIRFLOW_CTX_TASK_ID='RUN_BRONZE' AIRFLOW_CTX_EXECUTION_DATE='2024-10-17T23:05:17.711858+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-17T23:05:17.711858+00:00'
+[2024-10-17T23:05:18.861+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-17T23:05:18.876+0000] {base.py:84} INFO - Retrieving connection 'databricks_default'
+[2024-10-17T23:05:18.877+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra

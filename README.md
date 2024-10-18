@@ -36,7 +36,7 @@ After building the custom image, update the docker-compose.yaml file to use this
 
 To connect to Databricks, you will need to create an environment variable file containing the required credentials. If you need assistance with obtaining the credentials for testing, please contact me.
 
-The notebooks used in this project are available for viewing.
+The notebooks used in this project are available for viewing. To view the notebooks, navigate to the notebooks folder and download the HTML files.
 
 Thank you very much!
 For any questions, feel free to reach out at:

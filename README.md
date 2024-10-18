@@ -32,5 +32,13 @@ docker build . --tag 'your_custom_image_name'
 
 After building the custom image, update the docker-compose.yaml file to use this custom image.
 
+
+
 To connect to Databricks, you will need to create an environment variable file containing the required credentials. If you need assistance with obtaining the credentials for testing, please contact me.
+
+The notebooks used in this project are available for viewing.
+
+Thank you very much!
+For any questions, feel free to reach out at:
+guilhermeavila.orlando@gmail.com
 

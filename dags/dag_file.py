@@ -100,13 +100,13 @@ with DAG('ETL_SCRIPT',
     )
 
     success_notif = PythonOperator(
-        task_id='EMAIL_FAILURE',
+        task_id='EMAIL_SUCCESS',
         python_callable=enviar_email_sucesso,
         trigger_rule=TriggerRule.ALL_SUCCESS
     )
 
     fail_notif = PythonOperator(
-        task_id='EMAIL_SUCCESS',
+        task_id='EMAIL_FAILURE',
         python_callable=enviar_email_falha,
         trigger_rule=TriggerRule.ONE_FAILED
     )
